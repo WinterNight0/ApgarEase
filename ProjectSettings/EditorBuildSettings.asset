@@ -17,6 +17,36 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Neonatal.unity
     guid: cb6bff33a03cca84e9ac47d2d2f12334
+  - enabled: 1
+    path: Assets/Scenes/MRSOPA.unity
+    guid: 6fadf2de864a5c9468d78aa519f1dd28
+  - enabled: 1
+    path: Assets/Scenes/PPV2.unity
+    guid: 974aae0aaea8f8543893524a0ddefe62
+  - enabled: 1
+    path: Assets/Scenes/PPV3.unity
+    guid: 10feafcb15d5dd9478bb94721b45eeb5
+  - enabled: 1
+    path: Assets/Scenes/Done_Neonatal.unity
+    guid: 800140698353230448f0ed3a06933dc5
+  - enabled: 1
+    path: Assets/Scenes/MRSOPA 2.unity
+    guid: 762566730cb487b47895f2bb2fb8dcf6
+  - enabled: 1
+    path: Assets/Scenes/MRSOPA 3.unity
+    guid: e88f059aeee22b541b04ef975ffd3e89
+  - enabled: 1
+    path: Assets/Scenes/Airway.unity
+    guid: f025109f9d8e4c84997439086eb2028c
+  - enabled: 1
+    path: Assets/Scenes/EET.unity
+    guid: 84e241babc1259b46b3ea14604cc4cd7
+  - enabled: 1
+    path: Assets/Scenes/DRUG.unity
+    guid: 0393540a3caa7e446a5106bbe70348de
+  - enabled: 1
+    path: Assets/Scenes/Consider.unity
+    guid: ca036d96258367649aa3519b3ea648b4
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 49bcba74f119e6443bda6de305059afd, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 65435edafb73fdc41b5b94cfdb166424, type: 2}

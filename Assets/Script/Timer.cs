@@ -5,6 +5,33 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI timerText;
     private float elapsedTime = 0f;
+    private bool isPaused = false;
+
+    public bool startPaused = false; // set true in Neonatal scene
+
+    void Awake()
+    {
+        if (startPaused)
+        {
+            isPaused = true;
+            UpdateTimerText(); // force update to show 00:00
+        }
+    }
+    public void Pause()
+    {
+        isPaused = true;
+    }
+
+    public void Resume()
+    {
+        isPaused = false;
+    }
+    public void ResetAndPause()
+    {
+        elapsedTime = 0f;
+        isPaused = true;
+        UpdateTimerText();
+    }
 
     public float GetElapsedTime()
     {
@@ -19,8 +46,11 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        elapsedTime += Time.deltaTime;
-        UpdateTimerText();
+        if (!isPaused)
+        {
+            elapsedTime += Time.deltaTime;
+            UpdateTimerText();
+        }
     }
 
     private void UpdateTimerText()
