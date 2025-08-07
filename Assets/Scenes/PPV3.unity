@@ -690,7 +690,7 @@ MonoBehaviour:
   optionButtonA: {fileID: 1157820577}
   sceneNameA: Done_Neonatal
   optionButtonB: {fileID: 1692096957}
-  sceneNameB: Scene_B
+  sceneNameB: Airway
 --- !u!1 &418849643
 GameObject:
   m_ObjectHideFlags: 0
