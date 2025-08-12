@@ -47,6 +47,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Consider.unity
     guid: ca036d96258367649aa3519b3ea648b4
+  - enabled: 1
+    path: Assets/Scenes/Airway 1.unity
+    guid: 86394215e3d27d447a906cbb0c999957
+  - enabled: 1
+    path: Assets/Scenes/Start_CPR.unity
+    guid: ef42d1163638a564a8d86bf716a7b040
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 49bcba74f119e6443bda6de305059afd, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 65435edafb73fdc41b5b94cfdb166424, type: 2}
