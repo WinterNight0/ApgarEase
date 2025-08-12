@@ -53,6 +53,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Start_CPR.unity
     guid: ef42d1163638a564a8d86bf716a7b040
+  - enabled: 1
+    path: Assets/Scenes/Bridge.unity
+    guid: 226cbf1018f3d2148829cec212d7806d
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 49bcba74f119e6443bda6de305059afd, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 65435edafb73fdc41b5b94cfdb166424, type: 2}
